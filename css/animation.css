@@ -1,11 +1,4 @@
-* {
-    box-sizing: border-box;
-  }
-  
-  html {
-    overflow: hidden;
-  }
-  
+
   html {
     -webkit-animation: html 4s ease infinite;
             animation: html 4s ease infinite;

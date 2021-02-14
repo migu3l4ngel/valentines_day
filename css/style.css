@@ -1,0 +1,19 @@
+:root {
+    --pinkies: #FFF0EF;
+}
+.main-content {
+    background: var(--pinkies);
+    position: relative;
+    margin: 10rem;
+}
+.text-content {
+    text-align: center;
+}
+.btn {
+    background-color: var(--pinkies);
+}
+img {
+    position: center;
+    height: 40%;
+    width: 40%;
+}
