@@ -1,19 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+}
 :root {
     --pinkies: #FFF0EF;
+    --valentinesDay: #eb3f84;
 }
-.main-content {
-    background: var(--pinkies);
+.main-info {
     position: relative;
-    margin: 10rem;
+    z-index: 1;
+    margin: 100px;
 }
-.text-content {
+.main-info .container {
+    background: linear-gradient(to top, var(--pinkies), #ffffff);
+    border-radius: 20px;
+    bottom: 100px;
+    padding-top: 28px;
+    box-shadow: 0px 20px 80px 0px var(--pinkies);
+}
+.text-container .title {
     text-align: center;
+    color: var(--valentinesDay);
+    font-family: 'Dancing Script', cursive;
 }
-.btn {
-    background-color: var(--pinkies);
+.btn-container {
+    display: inline-block;
+    margin: 5rem;
+    margin-left: 50%;
+    transform: translateX(-50%);
 }
-img {
-    position: center;
-    height: 40%;
-    width: 40%;
+.btn-container .btn {
+    position: flex;
+    background: var(--valentinesDay);
+    color: white;
+}
+.btn-container .btn:hover {
+    background: white;
+    color: var(--valentinesDay);
+    border-color: var(--valentinesDay);
+    transition: 0.7s;
+}
+.img-container {
+    display: inline-block;
+}
+.img-container .img {
+    height: 20%;
+    position: flex;
 }
