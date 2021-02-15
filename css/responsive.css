@@ -1,0 +1,16 @@
+@media (min-width: 562px) {
+    .text-container .title {
+        font-size: 30px;
+        text-align: center;
+    }
+    .btn-container .btn {
+        margin: 1rem;
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+    .img-container .img {
+        display: fixed;
+        height: 10%;
+        margin-right: -100%;
+    }
+}
