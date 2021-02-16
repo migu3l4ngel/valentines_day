@@ -23,6 +23,9 @@
     color: var(--valentinesDay);
     font-family: 'Dancing Script', cursive;
 }
+.text-container h2 {
+    margin: 50px;
+}
 .btn-container {
     display: inline-block;
     margin-left: 50%;
@@ -42,8 +45,4 @@
 }
 .img-container {
     display: inline-block;
-}
-.img-container .img {
-    height: 20%;
-    position: center;
 }
