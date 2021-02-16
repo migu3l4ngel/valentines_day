@@ -1,15 +1,15 @@
 @media (max-width: 562px) {
     .text-container .title {
+        display: inline-block;
         font-size: 20px;
         text-align: center;
     }
     .btn-container .btn {
         margin: 1rem;
-        margin-left: 50%;
-        transform: translateX(-50%);
+        font-size: 13px;
     }
     .img-container .img {
-        display: fixed;
+        
         height: 10%;
         margin-right: -100%;
     }
