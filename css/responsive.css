@@ -7,6 +7,9 @@
         font-size: 20px;
         text-align: center;
     }
+    .text-container h2 {
+        margin: 20px;
+    }
     .btn-container .btn {
         margin: 1rem;
         font-size: 13px;
