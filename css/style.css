@@ -9,7 +9,7 @@
 .main-info {
     position: flex;
     z-index: 1;
-    margin: 100px;
+    margin: 3em auto 1em;
 }
 .main-info .container {
     background: linear-gradient(to top, var(--pinkies), #ffffff);
@@ -45,4 +45,8 @@
 }
 .img-container {
     display: inline-block;
+    margin-bottom: 20px;
+}
+.img-container .img-fluid {
+    box-shadow: 0px 20px 80px 0px rgba(110, 110, 110, 0.3);
 }
