@@ -41,9 +41,9 @@
     transition: 0.7s;
 }
 .img-container {
-    display: inline-block;
+    display: flex;
 }
 .img-container .img {
     height: 20%;
-    position: flex;
+    position: center;
 }
